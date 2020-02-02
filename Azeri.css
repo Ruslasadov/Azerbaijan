@@ -1,0 +1,267 @@
+body {
+
+  margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
+
+  /* Sets the background for the entire page to a light yellow color */
+
+  background-color: yellow;
+
+  font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
+
+}
+ a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+
+   li {
+    list-style-type: none; /* Убираем маркеры */
+  }
+
+
+.text1{
+  color: #205D76;
+}
+.text1:hover{
+  color:yellow;
+}
+
+.head{
+  width: 100%;
+  min-height: 100%;
+  background-color:#fff;
+  text-align: center;
+  padding: 10px;
+  font-weight:600;
+}
+ .menu{
+    display: flex;
+    flex-flow: row;
+    color: #fff;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+  }
+header{
+  width: 100%;
+  height: 390px;
+  background-image:url(https://t3.ftcdn.net/jpg/01/88/74/58/240_F_188745896_PQk5moRtEose4vBDhtqSDL82eRKVoed4.jpg);
+  background-size: cover;
+}
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+  
+}
+.li{
+  position: relative;
+  border-right:2px solid:yellow;
+}
+.text3{
+  color: #000;
+}
+.text3:hover{
+  color:#b35900;
+}
+.primary-header {
+
+  text-align: center; /* This will center the main heading and the main image */
+
+}
+
+
+
+.main-heading {
+
+  font-size: 70px;
+
+  color: #205D76;
+
+}
+.main-heading:hover{
+  color:#6da0b5; 
+
+}
+.ag{
+  color: #fff;
+  transition: transform 1s ease;
+ }
+.ag:hover{
+  transform: rotateX(43deg);
+}
+.town-preview {
+
+  width: 100%px;
+
+  border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+.store-section {
+
+  display: flex; /* Makes the content witin this element flexible */
+
+  display: -webkit-flex; /* vendor prefix */
+
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+
+  width: 450px; /* approximate width of each section */
+   text-align: center; /* This will center the main heading and the main image */
+
+}
+
+.icon{
+  width: 35px;
+}
+.icon:hover{
+  border-color: yellow;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: padding 0.3s ease-out, background-color 1s ease;
+}
+
+.building {
+
+  width: 200px;
+
+  border-radius: 30px;
+}
+.building:hover{
+  transform: scale(1.1); rotate(1 deg);
+}
+
+
+
+.store-details { /* This is the div that contains the text */
+
+  margin-left: 30px;
+
+}
+
+
+
+.category-heading {
+
+  color: #205D76;
+
+  font-size: 30px;
+}
+
+
+.store-list {
+
+  padding-left: 15px;
+
+  color: #fff; /* this will make sure the bullet points turn dark yellow! */
+
+}
+
+
+
+.store-name {
+
+  margin-bottom: 20px; /* adds a bit of space at the bottom of each list item */
+
+}
+.store-name:hover{
+  color: #205D76;
+  background-color: #ffff;
+}
+
+
+
+.store-link {
+
+  color: #EA6E2F;
+
+  font-size: 20px;
+
+}
+
+/* end main styling */
+
+
+
+/* begin footer styling */
+
+.primary-footer {
+
+  padding: 2px;
+
+  background-color: #Fff;
+
+  text-align: center;
+
+}
+
+
+
+.created-by {
+
+  color: #205D76;
+
+  font-size: 20px;
+
+}
+
+/* end footer styling */
+
+
+ @media (min-width: 786px){
+  #banner h2 {
+   font-size: 2rem;
+ }
+.building{
+  flex-flow: column;
+  width: 100%;
+}
+ #three article{
+  width: 100%;
+ }
+.card{width: 100%; display: inline-block;}
+
+ @media (min-width: 786px){
+  #banner h2 {
+   font-size: 2rem;
+ }
+.store-name{
+  flex-flow: column;
+  width: 100%;
+}
+ #three article{
+  width: 100%;
+ }
+.card{width: 100%; display: inline-block;}
+
+ @media (min-width: 786px){
+  #banner h2 {
+   font-size: 2rem;
+ }
+.category-heading{
+  flex-flow: column;
+  width: 100%;
+}
+ #three article{
+  width: 100%;
+ }
+.card{width: 100%; display: inline-block;}
+ @media (min-width: 786px){
+  #banner h2 {
+   font-size: 2rem;
+ }
+footer{
+  flex-flow: column;
+  width: 100%;
+}
+ #three article{
+  width: 100%;
+ }
+.card{width: 100%; display: inline-block;}
+
